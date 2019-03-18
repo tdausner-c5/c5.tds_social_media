@@ -1,0 +1,103 @@
+.ccm-block-tds-social-media div.icon-container {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.ccm-block-tds-social-media div.icon-container.left-align {
+	justify-content: flex-start;
+}
+.ccm-block-tds-social-media div.icon-container.right-align {
+	justify-content: flex-end;
+}
+.ccm-block-tds-social-media div.svc {
+	cursor: pointer;
+	display: inline-flex;		
+	position: relative;
+}
+.ccm-block-tds-social-media .speech-bubble {
+    background: #fff;
+	border: 1px solid gray;
+    border-radius: 4px;
+	color: initial;
+	display: none;
+    padding: 10px;
+    position: absolute;
+	text-align: left;
+    width: 300px;
+	z-index: 1000;
+}
+.ccm-block-tds-social-media div.svc.activated .speech-bubble {
+	display: block;
+}
+.ccm-block-tds-social-media .speech-bubble span.arrow,
+.ccm-block-tds-social-media .speech-bubble span.arrow-inner {
+	content: ' ';
+	border-style: solid;
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+.ccm-block-tds-social-media .speech-bubble span.arrow {
+	border-color: gray transparent transparent transparent;
+	bottom: -32px;
+	border-width: 32px 12px 0;
+}
+.ccm-block-tds-social-media .speech-bubble span.arrow-inner {
+	border-color: white transparent transparent transparent;
+    bottom: -30px;
+	border-width: 30px 10px 0;
+	margin-left: 2px;
+}
+.ccm-block-tds-social-media .speech-bubble.left span.arrow,
+.ccm-block-tds-social-media .speech-bubble.right span.arrow {
+	border-width: 16px 12px;
+	bottom: -32px;
+}
+.ccm-block-tds-social-media .speech-bubble.left span.arrow-inner,
+.ccm-block-tds-social-media .speech-bubble.right span.arrow-inner {
+	border-width: 15px 10px;
+	bottom: -29px;
+    margin-left: 1px;
+}
+.ccm-block-tds-social-media .speech-bubble.left span.arrow {
+	border-color: gray transparent transparent gray;
+}
+.ccm-block-tds-social-media .speech-bubble.left span.arrow-inner {
+	border-color: white transparent transparent white;
+}
+.ccm-block-tds-social-media .speech-bubble.right span.arrow {
+	border-color: gray gray transparent transparent;
+}
+.ccm-block-tds-social-media .speech-bubble.right span.arrow-inner {
+	border-color: white white transparent transparent;
+	margin-left: 3px;
+}
+.ccm-block-tds-social-media .speech-bubble button,
+.ccm-block-tds-social-media .speech-bubble button:focus {
+	background: none;
+	border: none;
+	outline: none;
+}
+.ccm-block-tds-social-media .speech-bubble button {
+	float: right;
+	padding-left: 10px;
+	position: relative;
+	right: -10px;
+	top: -7px;
+}
+.ccm-block-tds-social-media .speech-bubble button i {
+	color: initial;
+	font-size: 35px;
+}
+.ccm-block-tds-social-media .speech-bubble label {
+    display: block;
+    font-size: 12px;
+    font-weight: inherit;
+    line-height: initial;
+    margin: 0;
+}
+.ccm-block-tds-social-media .speech-bubble label i.fa-times {
+	font-size: 1.3em;
+    position: relative;
+    top: 1px;
+}

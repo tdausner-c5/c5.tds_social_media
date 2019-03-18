@@ -1,0 +1,323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tds_social_media 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-02-10T11:57:29+01:00\n"
+"PO-Revision-Date: 2019-02-10T11:57:29+01:00\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: packages/tds_social_media/controller.php:22
+msgid "TDS Social Media Icons EU-GDPR compliant"
+msgstr ""
+
+#: packages/tds_social_media/controller.php:27
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:40
+msgid "Add EU-GDPR compliant social media icons on your pages."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:45
+msgid "Social Media Icons"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:65
+msgid "(undefined)"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:66
+msgid "...visit our page"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:67
+msgid "...share this page"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:70
+msgid "a new window or tab"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:71
+msgid "the same frame as it was clicked (this is default)"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:72
+msgid "the parent frame"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:73
+msgid "the full body of the window"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:76
+msgid "left"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:77
+msgid "right"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:80
+msgid "logo"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:81
+msgid "logo inverse"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:82
+msgid "color"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:83
+msgid "color inverse"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:86
+msgid "Visit our page at %s"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:87
+msgid "Share this page at %s"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:90
+msgid "You now have enabled the icon to visit our page at \"%s\". If you now click at the activated icon the \"visit\" page at \"%s\" shall be opened. On opening your personal browser data is transmitted to the provider \"%s\". To avoid this you can click at the close <strong>X</strong> button and by this disable the \"visit \"icon."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:95
+msgid "You now have enabled the icon to share this page at \"%s\". If you now click at the activated icon the page at \"%s\" shall be opened. On opening your personal browser data is transmitted to the provider \"%s\". To avoid this you can click at the close <strong>X</strong> button and by this disable the share icon."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:103
+msgid "No social media service selected."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:104
+msgid "Missing URL(s) for: %s"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:193
+msgid ""
+"Check out this article on %s:\n"
+"\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:194
+msgid "Please notice this article."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:197
+msgid "https://www.behance.net/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:200
+msgid "https://your-account-name.deviantart.com"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:203
+msgid "https://dribbble.com/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:206
+msgid "https://www.facebook.com/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:210
+msgid "https://www.flickr.com/photos/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:213
+msgid "https://github.com/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:216
+msgid "http://instagram.com/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:219
+msgid "https://itunes.apple.com/..."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:222
+msgid "https://www.linkedin.com/in/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:226
+msgid "https://www.pinterest.com/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:233
+msgid "skype:profile_name?your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:235
+msgid "https://soundcloud.com/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:238
+msgid "https://play.spotify.com/artist/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:241
+msgid "http://www.your-account-name.tumblr.com"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:244
+msgid "https://twitter.com/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:248
+msgid "http://vimeo.com/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:254
+msgid "https://www.youtube.com/user/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:257
+msgid "https://www.xing.com/profile/your-account-name"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:300
+msgid "Print this page"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/controller.php:300
+msgid "Share this page by email"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:8
+msgid "Select social media."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:11
+msgid "This is a one way select. To change type of social media you must delete this block and add a new one."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:19
+msgid "Social media services"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:20
+msgid "Color and style"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:29
+msgid "Open Links in..."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:33
+msgid "Icon orientation"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:51
+msgid "URL"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:89
+msgid "Icon shape"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:90
+msgid "round"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:90
+msgid "square"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:93
+msgid "Icon style"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:95
+msgid "'logo / logo inverse' selects the social media own color(s)"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:100
+msgid "Icon color"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:105
+msgid "Icon size"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:106
+msgid "Icon size [20px...200px]."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:113
+msgid "Icon hover color"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:116
+msgid "Icon activated color"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:120
+msgid "Icon spacing"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:121
+msgid "Space between icons (margin left + right) [0...50px]."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:133
+msgid "Icon hover title"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:135
+#: packages/tds_social_media/blocks/tds_social_media/form.php:149
+msgid "The expression \"%s\" is replaced by the social service name."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:140
+msgid "Bubble text"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:142
+msgid "This is the text popping up in a bubble on clicking at a social media \"visit\" icon"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:144
+msgid "Edit"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:147
+msgid "Bubble text on clicking at a social media \"visit\" icon"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:154
+msgid "Reset bubble text to recommended default."
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:156
+msgid "Save"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:163
+msgid "Icon Preview"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:183
+msgid "visit"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/form.php:184
+msgid "share"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/view.php:18
+msgid "Close bubble text and deactivate icon"
+msgstr ""
+
+#: packages/tds_social_media/blocks/tds_social_media/view.php:19
+msgid "Close"
+msgstr ""

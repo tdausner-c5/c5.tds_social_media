@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.concrete5.org/doctrine-xml/0.5">
+
+    <table name="btTdsSocialMedia">
+        <field name="bID" type="integer">
+            <unsigned/>
+            <key/>
+        </field>
+        <field name="mediaType" type="string" size="255"/>
+        <field name="linkTarget" type="string" size="255"/>
+        <field name="align" type="string" size="255"/>
+        <field name="titleText" type="string" size="255"/>
+        <field name="bubbleText" type="text" size="65535"/>
+        <field name="iconShape" type="string" size="255"/>
+        <field name="iconStyle" type="string" size="255"/>
+        <field name="iconColor" type="string" size="255"/>
+        <field name="iconSize" type="integer"/>
+        <field name="hoverIcon" type="string" size="255"/>
+        <field name="iconMargin" type="integer"/>
+        <field name="activeIcon" type="string" size="255"/>
+        <field name="mediaList" type="text" size="65535"/>
+    </table>
+
+</schema>
