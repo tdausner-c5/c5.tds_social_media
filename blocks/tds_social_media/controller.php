@@ -309,7 +309,7 @@ class Controller extends BlockController
             { # for view ------------------
                 $this->mediaList[$svc]['html'] = '
 					<div class="svc ' . $mProps['fa'] . '">
-					   ' . $icon . '
+					   ' . $this->mediaList[$svc][$this->mediaType. '-icon'] . '
 				   </div>';
             }
             $this->mediaList[$svc]['ph'] = $mProps['ph'];
