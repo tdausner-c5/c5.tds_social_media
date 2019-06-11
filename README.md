@@ -44,6 +44,7 @@ Localization is available for de_DE, feel free to add more.
 * Reddit
 * Tumblr
 * Twitter
+* VK
 * Xing
 * Email (local service)
 * Print (local service)
