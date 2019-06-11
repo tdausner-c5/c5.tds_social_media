@@ -209,7 +209,7 @@ echo '
         };
 
         $( document ).ready( function () {
-            window.initIconStyles( '<?php echo str_replace("\n", '', $this->controller->getIconStyles(0)) ?>' );
+            window.initIconStyles( '<?php echo str_replace([ "\r", "\n" ], [ '', '' ], $this->controller->getIconStyles(0)) ?>' );
 
             /*
              * mediaType selector change handler and/or mediaType initialization
