@@ -1,6 +1,6 @@
 # Add-on tds_social_media
 
-This add-on lets you add social media icons on your pages. This could by
+This add-on lets you add social media icons on your pages. This could be
 * either "visit my/our page at..." icons
 * or "share this page at..." icons
 
