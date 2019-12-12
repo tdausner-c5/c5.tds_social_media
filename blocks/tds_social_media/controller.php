@@ -20,6 +20,8 @@ class Controller extends BlockController
     protected $btDefaultSet = 'social';
 
     protected $iconStyles = '
+		.ccm-block-tds-social-media.block-%b% .icon-container { margin: calc(%iconMargin%px / -2);}
+		.ccm-block-tds-social-media.block-%b% .icon-container .svc { margin-top: calc(%iconMargin%px / 2); margin-bottom: calc(%iconMargin%px / 2); }
 		.ccm-block-tds-social-media.block-%b% .icon-container .svc.activated span { %activeAttrs% }
 		.ccm-block-tds-social-media.block-%b% .social-icon:hover { %hoverAttrs% }
 		.ccm-block-tds-social-media.block-%b% .social-icon-color { color: #f8f8f8; background: %iconColor%; }
