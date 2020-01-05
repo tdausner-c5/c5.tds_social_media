@@ -289,7 +289,8 @@ class Controller extends BlockController
             { #------------------ visit
                 if ($svc == 'Skype')
                     $trg = '_self';
-                $icon = '<span class="' . $iconClass . '" data-key="' . $svc . '" data-href="' . $props['url'] . '" data-target="' . $trg . '">' .
+                $url = empty($props['url']) ? '' : $props['url'];
+                $icon = '<span class="' . $iconClass . '" data-key="' . $svc . '" data-href="' . $url . '" data-target="' . $trg . '">' .
                     '<i class="fa fa-' . $mProps['fa'] . '" title="' . $title . '"></i>' .
                     '</span>';
                 $this->mediaList[$svc]['visit-icon'] = $icon;
@@ -307,16 +308,16 @@ class Controller extends BlockController
                     '</span>';
                 $this->mediaList[$svc]['share-icon'] = $icon;
             }
-            if ($props['checked'])
+            if (!empty($props['checked']) && $props['checked'])
             { # for view ------------------
                 $this->mediaList[$svc]['html'] = '
 					<div class="svc ' . $mProps['fa'] . '">
 					   ' . $this->mediaList[$svc][$this->mediaType. '-icon'] . '
 				   </div>';
             }
-            $this->mediaList[$svc]['ph'] = $mProps['ph'];
-            $this->mediaList[$svc]['rx'] = $mProps['rx'];
-            $this->mediaList[$svc]['sa'] = $mProps['sa'];
+            $this->mediaList[$svc]['ph'] = empty($mProps['ph']) ? NULL : $mProps['ph'];
+            $this->mediaList[$svc]['rx'] = empty($mProps['rx']) ? NULL : $mProps['rx'];
+            $this->mediaList[$svc]['sa'] = empty($mProps['sa']) ? NULL : $mProps['sa'];
         }
     }
 }
